@@ -20,6 +20,7 @@ ZXCXXISL89695_API int WINAPI fnZXCX_XISL_Open()
 	ZxcxLogINFO("end");
 	return nRet;
 }
+
 ZXCXXISL89695_API int WINAPI fnZXCX_XISL_Close()
 {
 	ZxcxLogINFO("");
@@ -34,6 +35,7 @@ ZXCXXISL89695_API int WINAPI fnZXCX_XISL_Close()
 	return nRet;
 
 }
+
 ZXCXXISL89695_API int WINAPI fnZXCX_XISL_GetXISLVersion()
 {
 	int nRet = DT_FAILURE;
@@ -41,6 +43,7 @@ ZXCXXISL89695_API int WINAPI fnZXCX_XISL_GetXISLVersion()
 	return nRet;
 
 }
+
 ZXCXXISL89695_API int WINAPI fnZXCX_XISL_GetStatus()
 {
 	int nRet = DT_FAILURE;
@@ -48,6 +51,7 @@ ZXCXXISL89695_API int WINAPI fnZXCX_XISL_GetStatus()
 	return nRet;
 
 }
+
 ZXCXXISL89695_API int WINAPI fnZXCX_XISL_Reset()
 {
 	int nRet = DT_FAILURE;
@@ -55,6 +59,7 @@ ZXCXXISL89695_API int WINAPI fnZXCX_XISL_Reset()
 	return nRet;
 
 }
+
 ZXCXXISL89695_API int WINAPI fnZXCX_XISL_GetDevVersion()
 {
 	int nRet = DT_FAILURE;
