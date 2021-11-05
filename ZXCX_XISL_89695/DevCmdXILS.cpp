@@ -998,6 +998,7 @@ int WINAPI fnDevXISL_Acq_wpe_SystemControl()
 	{
 		printf("Current Power state: %d\n", nRet);
 	}
+
 	/*
 	XRpad_SYSTEM_CONTROL_REBOOT = 0,           // restart XRpad
 	XRpad_SYSTEM_CONTROL_RESTART_NETWORK = 1,  // restart XRpad Network

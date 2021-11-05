@@ -2071,3 +2071,37 @@ ERROR - 9ms 2021-11-02 16:12:42.132 - ID:  3796/  324 - Acquisition_wpe_GetVersi
 INFO  - 3097645ms 2021-11-02 17:04:19.768 - ID:  3796/  324 - Acquisition_GetNextSensor - started
 INFO  - 3097645ms 2021-11-02 17:04:19.768 - ID:  3796/  324 - Acquisition_GetNextSensor exited with code 28 [Src\Acq.c:16141]
 ERROR - 3097645ms 2021-11-02 17:04:19.768 - ID:  3796/  324 - Acquisition_GetNextSensor exited with error code: 28 Function: Acquisition_GetNextSensor - [Src\Acq.c:16142]
+INFO  - 05.11.21 10:15:04.040 - ID: 55700/42548  - Acquisition_SetLogOutput exited successfully! [Src\acq_common.cpp:958]
+INFO  - 05.11.21 10:15:04.040 - ID: 55700/42548  - Acquisition_SetLogLevel - started with arguments: xislLogLvl: 2
+INFO  - 05.11.21 10:15:04.040 - ID: 55700/42548  - Acquisition_SetLogLevel exited successfully! [Src\acq_common.cpp:765]
+INFO  - 05.11.21 10:15:04.040 - ID: 55700/42548  - Acquisition_TogglePerformanceLogging - started with arguments: onOff: 1
+INFO  - 4ms 2021-11-05 10:15:04.040 - ID: 55700/42548 - Acquisition_TogglePerformanceLogging exited successfully! [Src\acq_common.cpp:863]
+INFO  - 4ms 2021-11-05 10:15:04.040 - ID: 55700/42548 - Acquisition_GetVersion - started
+INFO  - 4ms 2021-11-05 10:15:04.040 - ID: 55700/42548 - Acquisition_GetVersion - ended with arguments: major: 3, minor: 3, release: 13115, build: 64
+INFO  - 4ms 2021-11-05 10:15:04.040 - ID: 55700/42548 - Acquisition_GetVersion exited successfully! [Src\Acq.c:19844]
+INFO  - 4ms 2021-11-05 10:15:04.040 - ID: 55700/42548 - Acquisition_GbIF_GetVersion - started with arguments: iStrLength: 256
+ERROR - 6ms 2021-11-05 10:15:04.042 - ID: 55700/42548 - Acquisition_GbIF_GetVersion exited with error code: 39 Function: Acquisition_GbIF_GetVersion - [Src\acq_gbif.cpp:278]
+INFO  - 7ms 2021-11-05 10:15:04.042 - ID: 55700/42548 - Acquisition_wpe_GetVersionNEW - started
+INFO  - 7ms 2021-11-05 10:15:04.042 - ID: 55700/42548 - Acq_WPE_Init - started
+ERROR - 9ms 2021-11-05 10:15:04.044 - ID: 55700/42548 - Acq_WPE_Init exited with error code: 39 Function: Acq_WPE_Init - [Src\acq_wpe.cpp:180]
+ERROR - 9ms 2021-11-05 10:15:04.044 - ID: 55700/42548 - Acquisition_wpe_GetVersionNEW exited with error code: 39 Function: Acquisition_wpe_GetVersionNEW - [Src\acq_wpe.cpp:223]
+INFO  - 140503ms 2021-11-05 10:17:24.538 - ID: 55700/42548 - Acquisition_GetNextSensor - started
+INFO  - 140504ms 2021-11-05 10:17:24.539 - ID: 55700/42548 - Acquisition_GetNextSensor exited with code 28 [Src\Acq.c:16141]
+ERROR - 140504ms 2021-11-05 10:17:24.539 - ID: 55700/42548 - Acquisition_GetNextSensor exited with error code: 28 Function: Acquisition_GetNextSensor - [Src\Acq.c:16142]
+INFO  - 05.11.21 10:19:37.431 - ID: 27572/60512  - Acquisition_SetLogOutput exited successfully! [Src\acq_common.cpp:958]
+INFO  - 05.11.21 10:19:37.432 - ID: 27572/60512  - Acquisition_SetLogLevel - started with arguments: xislLogLvl: 2
+INFO  - 05.11.21 10:19:37.432 - ID: 27572/60512  - Acquisition_SetLogLevel exited successfully! [Src\acq_common.cpp:765]
+INFO  - 05.11.21 10:19:37.432 - ID: 27572/60512  - Acquisition_TogglePerformanceLogging - started with arguments: onOff: 1
+INFO  - 4ms 2021-11-05 10:19:37.432 - ID: 27572/60512 - Acquisition_TogglePerformanceLogging exited successfully! [Src\acq_common.cpp:863]
+INFO  - 4ms 2021-11-05 10:19:37.432 - ID: 27572/60512 - Acquisition_GetVersion - started
+INFO  - 4ms 2021-11-05 10:19:37.432 - ID: 27572/60512 - Acquisition_GetVersion - ended with arguments: major: 3, minor: 3, release: 13115, build: 64
+INFO  - 4ms 2021-11-05 10:19:37.432 - ID: 27572/60512 - Acquisition_GetVersion exited successfully! [Src\Acq.c:19844]
+INFO  - 4ms 2021-11-05 10:19:37.432 - ID: 27572/60512 - Acquisition_GbIF_GetVersion - started with arguments: iStrLength: 256
+ERROR - 6ms 2021-11-05 10:19:37.434 - ID: 27572/60512 - Acquisition_GbIF_GetVersion exited with error code: 39 Function: Acquisition_GbIF_GetVersion - [Src\acq_gbif.cpp:278]
+INFO  - 6ms 2021-11-05 10:19:37.434 - ID: 27572/60512 - Acquisition_wpe_GetVersionNEW - started
+INFO  - 6ms 2021-11-05 10:19:37.434 - ID: 27572/60512 - Acq_WPE_Init - started
+ERROR - 8ms 2021-11-05 10:19:37.436 - ID: 27572/60512 - Acq_WPE_Init exited with error code: 39 Function: Acq_WPE_Init - [Src\acq_wpe.cpp:180]
+ERROR - 8ms 2021-11-05 10:19:37.436 - ID: 27572/60512 - Acquisition_wpe_GetVersionNEW exited with error code: 39 Function: Acquisition_wpe_GetVersionNEW - [Src\acq_wpe.cpp:223]
+INFO  - 23226ms 2021-11-05 10:20:00.654 - ID: 27572/60512 - Acquisition_GetNextSensor - started
+INFO  - 23226ms 2021-11-05 10:20:00.654 - ID: 27572/60512 - Acquisition_GetNextSensor exited with code 28 [Src\Acq.c:16141]
+ERROR - 23226ms 2021-11-05 10:20:00.654 - ID: 27572/60512 - Acquisition_GetNextSensor exited with error code: 28 Function: Acquisition_GetNextSensor - [Src\Acq.c:16142]
