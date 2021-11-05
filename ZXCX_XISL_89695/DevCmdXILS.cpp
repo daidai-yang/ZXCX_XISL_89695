@@ -1050,11 +1050,11 @@ int WINAPI fnDev_WWWLMapping(unsigned short* input_image, unsigned char* output_
 
 		nPixelVal = (int)((pixel_val - min)*dFactor);
 
-		if (nPixelVal < 0) 
+		if (nPixelVal < 0)
 			output_image[i] = 0;
-		else if (nPixelVal > 255) 
+		else if (nPixelVal > 255)
 			output_image[i] = 255;
-		else 
+		else
 			output_image[i] = nPixelVal;
 	}
 
@@ -1072,7 +1072,6 @@ int WINAPI fnDev_Acq_Register_ImageCallback(fnDev_Acq_Imageback acq_Imageback)
 	if ((nRet = Acquisition_SetCallbacksAndMessages(g_hAcqDesc, NULL, 0,
 		0, OnEndFrameCallback, OnEndAcqCallback)) != HIS_ALL_OK)
 	{
-		// error handling
 		char szMsg[300];
 		sprintf(szMsg, "Error nr.: %d", nRet);
 		ZxcxLogERROR("szMsg = %s", szMsg);
@@ -1084,6 +1083,7 @@ int WINAPI fnDev_Acq_Register_Test()
 {
 	ZxcxLogINFO("");
 	BYTE		nRet = DT_SUCCESS;
+
 	Image_callback(2, 1024, 1024, NULL);
 
 	return TRUE;
